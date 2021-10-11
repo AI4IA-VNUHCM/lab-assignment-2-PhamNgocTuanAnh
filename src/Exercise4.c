@@ -37,8 +37,8 @@ int main(int argc, char *argv[]) {
 					test_array[j] = k;
 				}}}  
 		for(int i=0 ; i<n/2 ; i++ )
-			{ printf(" %d ", test_array[i]); }
+			{ printf("%d ", test_array[i]); }
 		for(int i=n/2 ; i<n ; i++ )
-			{ printf(" %d ", test_array[i]); }
+			{ printf("%d ", test_array[i]); }
 	return 0;
 }
